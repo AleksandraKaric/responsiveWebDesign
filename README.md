@@ -1,10 +1,10 @@
-Responsive Web Design Projects
+## Responsive Web Design Projects
 
 This repository contains my solutions to the projects from the Responsive Web Design course on freeCodeCamp. Each project demonstrates my growing skills in HTML and CSS, focusing on building responsive and accessible web designs.
 
-Projects
+## Projects
 
-Tribute Page
+# Tribute Page
 
 A simple webpage dedicated to a person of my choice, showcasing their life and achievements.
 
