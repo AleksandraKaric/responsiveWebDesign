@@ -4,17 +4,17 @@ This repository contains my solutions to the projects from the Responsive Web De
 
 ## Projects
 
-/* ### Tribute Page
+<!-- ### Tribute Page
 
-A simple webpage dedicated to a person of my choice, showcasing their life and achievements. */
+A simple webpage dedicated to a person of my choice, showcasing their life and achievements. -->
 
 ### Survey Form
 
 A user-friendly form designed to collect feedback or survey responses.
 
-/* ### Product Landing Page
+<!-- ### Product Landing Page
 
-A landing page showcasing a fictional product with responsive layouts and navigation. */
+A landing page showcasing a fictional product with responsive layouts and navigation.
 
 ### Technical Documentation Page
 
@@ -22,7 +22,7 @@ A structured documentation webpage with navigation links for easy access to diff
 
 ### Personal Portfolio Webpage
 
-A portfolio website highlighting my projects and skills, complete with a responsive design.
+A portfolio website highlighting my projects and skills, complete with a responsive design.-->
 
 
 ## Acknowledgments
