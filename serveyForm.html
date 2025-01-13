@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <!-- Name -->
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <!-- Email -->
+        <label id="email-label" for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+        <!-- Age -->
+        <label id="number-label" for="number">Age</label>
+        <input type="number" id="number" name="age" placeholder="Enter your age" min="10" max="100">
+
+        <!-- Role -->
+        <label for="dropdown">Which option best describes your current role?</label>
+        <select id="dropdown" name="role">
+            <option disabled selected>Select current role</option>
+            <option value="student">Student</option>
+            <option value="full-time">Full-time job</option>
+            <option value="part-time">Part-time job</option>
+            <option value="other">Other</option>
+        </select>
+
+        <!-- Recommendation -->
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label><input type="radio" name="recommend" value="Definitely" required> Definitely</label>
+        <label><input type="radio" name="recommend" value="Maybe"> Maybe</label>
+        <label><input type="radio" name="recommend" value="Not sure"> Not sure</label>
+
+        <!-- Features to improve -->
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label><input type="checkbox" name="improvements" value="frontend"> Front-end Projects</label>
+        <label><input type="checkbox" name="improvements" value="backend"> Back-end Projects</label>
+        <label><input type="checkbox" name="improvements" value="data-visualization"> Data Visualization</label>
+        <label><input type="checkbox" name="improvements" value="challenges"> Challenges</label>
+
+        <!-- Comments -->
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+
+        <!-- Submit -->
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
