@@ -4,9 +4,9 @@ This repository contains my solutions to the projects from the Responsive Web De
 
 ## Projects
 
-<!-- ### Tribute Page
+### Tribute Page
 
-A simple webpage dedicated to a person of my choice, showcasing their life and achievements. -->
+A simple webpage dedicated to a book of my choice.
 
 ### Survey Form
 
