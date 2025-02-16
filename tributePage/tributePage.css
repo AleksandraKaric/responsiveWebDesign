@@ -1,0 +1,118 @@
+/* Osnovni stilovi za telo stranice */
+body {
+    font-family: Arial, sans-serif; /* Podešavamo osnovni font */
+    background-color: #1b1b32; /* Tamna pozadina inspirisana Mordorom */
+    color: #F5E6C4; /* Svetlozlatna boja teksta za bolji kontrast */
+    text-align: center; /* Centrira sav tekst na stranici */
+    margin: 0;
+    padding: 0;
+}
+
+/* Stil za glavni kontejner */
+main {
+    max-width: 800px; /* Postavljamo maksimalnu širinu */
+    margin: 40px auto; /* Centrira sadržaj horizontalno */
+    padding: 20px; /* Dodaje unutrašnji razmak */
+    background-color: rgba(0, 0, 0, 0.7); /* Poluprovidna crna pozadina */
+    border-radius: 10px; /* Zaobljeni uglovi */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* Zlatni sjaj - inspiracija Prstenom */
+}
+
+/* Naslov stranice */
+h1 {
+    font-size: 2.2em; /* Veći font za naslov */
+    margin-bottom: 10px; /* Razmak ispod naslova */
+}
+
+/* Opisni tekst ispod naslova */
+#description {
+    font-size: 1.2em; /* Veći font za bolju čitljivost */
+    margin-bottom: 20px;
+}
+
+/* Sekcija sa slikom */
+#img-div {
+    background-color: #3A6B35; /* Tamnozelena pozadina */
+    padding: 15px;
+    border-radius: 8px; /* Blago zaobljeni uglovi */
+}
+
+/* Stil za sliku */
+#image {
+    max-width: 100%; /* Slika se prilagođava širini ekrana */
+    height: auto; /* Održava proporcije */
+    display: block; /* Onemogućava neželjene praznine */
+    margin: 0 auto; /* Centrira sliku */
+    border-radius: 5px; /* Zaobljeni uglovi */
+    border: 3px solid #FFD700; /* Zlatan okvir - simbol Prstena */
+}
+
+/* Opis slike */
+#img-caption {
+    font-style: italic; /* Italik stil za opis slike */
+    margin-top: 10px;
+}
+
+/* Sekcija sa informacijama */
+#tribute-info {
+    text-align: left; /* Poravnanje teksta ulevo za bolju čitljivost */
+    font-size: 1.1em; /* Blago povećan font */
+    margin: 20px 10px;
+}
+
+/* Lista ključnih podataka */
+ul {
+    list-style-type: none; /* Uklanja podrazumevane markere */
+    padding: 0;
+}
+
+ul li {
+    background-color: #4A7C59; /* Tamnozelena */
+    padding: 10px; /* Unutrašnji razmak */
+    margin: 5px 0; /* Razmak između stavki */
+    border-radius: 5px; /* Blago zaobljeni uglovi */
+}
+
+/* Link za više informacija */
+#tribute-link {
+    display: inline-block;
+    background-color: #FFD700; /* Zlatna boja */
+    color: #000; /* Crni tekst za kontrast */
+    padding: 10px 15px; /* Unutrašnji razmak */
+    border-radius: 5px; /* Blago zaobljeni uglovi */
+    text-decoration: none; /* Uklanja podvlačenje */
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#tribute-link:hover {
+    background-color: #E6C200; /* Tamnija zlatna kada se pređe mišem */
+}
+
+/* Fokus stil za tastaturu korisnike */
+#tribute-link:focus {
+    outline: 3px solid #FFF; /* Bele ivice za bolju vidljivost */
+}
+
+/* Omogućavanje glatkog skrolovanja samo ako korisnik nema smanjenu animaciju */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Responzivni dizajn za manje ekrane */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #tribute-info {
+        font-size: 1em;
+    }
+}
